@@ -6,6 +6,8 @@ Sub Main()
 
     Call CreateFileSystemObject()
 
+    Call CreateLog("main.log")
+
 End Sub
 
 
