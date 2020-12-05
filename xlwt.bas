@@ -4,7 +4,6 @@ Option Explicit
 
 Public fs As Object
 Public fsLog As Object
-
 Public stTimeStamp As String
 
 
@@ -38,4 +37,4 @@ Sub CreateLog(stLogNameExt As String)
 
 End Sub
 
-
+    
