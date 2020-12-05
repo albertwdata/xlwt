@@ -4,7 +4,9 @@ Option Explicit
 
 Sub Main()
 
-    Call xlwt.CreateFileSystemObject()
+    Call xlwt.CreateFileSystemObject
+
+    Call xlwt.CreateLog("main.log")
 
 End Sub
 
